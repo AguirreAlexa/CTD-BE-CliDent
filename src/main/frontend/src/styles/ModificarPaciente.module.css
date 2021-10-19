@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Staatliches&family=Work+Sans:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+
+:root {
+    --celeste: rgba(135,199,255,1);
+    --naranja: rgba(241,177,88,1);
+    --azul: rgba(4,101,182,1);
+    --white: white;
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+.bodyModificar {
+    background-image: url('../images/odon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;    
+    height: 100vh;
+}
+
+.nav {
+  /* background-color: linear-gradient(rgba(39, 49,121,0.5), rgba(39, 49,121,0.5)); */
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem 1rem;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.clident{
+  display: flex;
+  color: var(--azul);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: var(--white) 2px 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.NavButtonMP{
+  background-color: var(--white);
+  background-size: cover;
+  color: var(--azul);
+  height: 7vh;
+  width: 8vw;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main{
+  padding: 35px 50px 50px 0px;
+  min-width: calc(100vh - 19vh - 15vh);
+}
+
+.articleMP{
+  height: 30vh;
+  width: 29vw;
+  margin: 0px auto;
+}
+
+.ModificarPaciente{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 30vw;
+    height: 55vh;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.808);
+    /* box-shadow: 5px 5px 50px #cbced1, -5px -5px 50px white; */
+    box-shadow: 3px 2px 15px rgb(44, 44, 44);
+    padding: 30px;
+    font-weight: bold;
+    font-family: 'calibri';
+}
+
+#Nombre, #Apellido, #Matricula {
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.h1Modificar{
+    font-family: 'Fjalla One', sans-serif;
+    margin: 5px 0px;
+    font-size: 2rem;
+    color: var(--azul);
+    text-align: center;
+}
+
+.enviar{
+  background-color: rgb(209, 209, 209);
+  color:var(--azul);
+  height: 7vh;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-top: 20px;
+  cursor: pointer;
+}

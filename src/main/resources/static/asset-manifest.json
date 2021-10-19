@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be9e5461.chunk.css",
+    "main.js": "/static/js/main.971b44e8.chunk.js",
+    "main.js.map": "/static/js/main.971b44e8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ccc4a72d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ccc4a72d.js.map",
+    "static/js/2.fabfc7f4.chunk.js": "/static/js/2.fabfc7f4.chunk.js",
+    "static/js/2.fabfc7f4.chunk.js.map": "/static/js/2.fabfc7f4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.be9e5461.chunk.css.map": "/static/css/main.be9e5461.chunk.css.map",
+    "static/js/2.fabfc7f4.chunk.js.LICENSE.txt": "/static/js/2.fabfc7f4.chunk.js.LICENSE.txt",
+    "static/media/IndexPaciente.module.css": "/static/media/Home.54c08a44.png",
+    "static/media/Login.module.css": "/static/media/Login.6aa5e76a.png",
+    "static/media/RegistroPaciente.module.css": "/static/media/RegistroPaciente.ac1b19c0.png",
+    "static/media/ModificarOdontologo.module.css": "/static/media/odon.bff6e587.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ccc4a72d.js",
+    "static/js/2.fabfc7f4.chunk.js",
+    "static/css/main.be9e5461.chunk.css",
+    "static/js/main.971b44e8.chunk.js"
+  ]
+}

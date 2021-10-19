@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Staatliches&family=Work+Sans:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+
+:root {
+    --celeste: rgba(135,199,255,1);
+    --naranja: rgba(241,177,88,1);
+    --azul: rgba(4,101,182,1);
+    --white: white;
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+.bodyLogin {
+    background-image: url('../images/Login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;    
+    height: 100vh;
+}
+
+.nav {
+  /* background-color: linear-gradient(rgba(39, 49,121,0.5), rgba(39, 49,121,0.5)); */
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem 1rem;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.NavButton{
+  background-color: var(--celeste);
+  background-size: cover;
+  color: var(--white);
+  height: 7vh;
+  width: 8vw;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.mainLogin{
+  padding: 35px 50px 50px 0px;
+  min-width: calc(100vh - 19vh - 15vh);
+}
+
+.articleLogin{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: 1rem;
+  height: 30vh;
+  width: 29vw;
+  margin: 80px 50px;
+}
+
+.clident{
+  display: flex;
+  color: var(--azul);
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-shadow: var(--white) 2px 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.mainLogin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: calc(100vh - 19vh - 15vh);
+}
+
+.articleLogin{
+  display: flex;
+  flex-direction: column;
+  grid-column: 3;
+  text-align: left;
+  font-size: 1rem;
+  height: 30vh;
+  width: 29vw;
+  margin: 80px 60px;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: var(--azul);
+    padding: 20px 30px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 5px 3px 20px rgb(44, 44, 44);
+    font-size: 1.2rem;
+}
+
+.h1Login{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.enviar{
+  background-color: rgb(209, 209, 209);
+  color:var(--azul);
+  height: 6vh;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 25px 0px;
+  cursor: pointer;
+}
